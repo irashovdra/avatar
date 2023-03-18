@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Hurricane&family=Inter&family=Italianno&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Хедер  -->
 
     <header>
-      <svg class="header__icon" width="244">
-        <use href=""></use>
-      </svg>
-      <button class="header-btn" type="button">
-        <svg class="header-btn__icon"><use href=""></use></svg>
-      </button>
+      <div class="container">
+        <img
+          src="./images/logo.png"
+          alt="logo"
+          class="header__logo"
+          width="244"
+        />
+        <span class="header__text">Eng</span>
+        <input class="header-btn" type="checkbox" role="switch" />
+        <!-- <svg class="header-btn__icon"><use href=""></use></svg> -->
+        <span class="header__text">Uk</span>
+      </div>
     </header>
 
     <!-- Мейн  -->
@@ -24,121 +43,184 @@
     <main>
       <!-- Герой  -->
 
-      <section class="hero-section">
-        <p>
-          Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu
-          Na'viyä hapxì. Säwem nìayoeng!
-        </p>
-        <p>
-          Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
-          залишається, щоб стати частиною Народу. Борись разом з нами!
-        </p>
-        <button class="hero-section__btn" type="button">Приєднатися до клану</button>
-        <ul class="hero-list">
-          <li class="hero-list__item">
-            <a href="" class="hero-list__link">
-              <svg class="hero-list__icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
-          <li class="hero-list__item">
-            <a href="" class="hero-list__link">
-              <svg class="hero-list__icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
-          <li class="hero-list__item">
-            <a href="" class="hero-list__link">
-              <svg class="hero-list__icon">
-                <use></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <section class="hero">
+        <div class="container">
+          <img src="./images/avatar.png" alt="avatar" class="avatar" />
+          <ul class="hero-list">
+            <p class="hero__text">
+              Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
+              slu Na'viyä hapxì. Säwem nìayoeng!
+            </p>
+            <p class="hero__text">
+              Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+              залишається, щоб стати частиною Народу. Борись разом з нами!
+            </p>
+          </ul>
+          <button class="hero__btn" type="button">Приєднатися до клану</button>
+          <ul class="hero-pages">
+            <li class="hero-pages__item">
+              <a href="" class="hero-pages__link">
+                <svg class="hero-pages__icon" width="34" height="30">
+                  <use href="./images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero-pages__item">
+              <a href="" class="hero-pages__link">
+                <svg class="hero-pages__icon" width="34" height="30">
+                  <use href="./images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero-pages__item">
+              <a href="" class="hero-pages__link">
+                <svg class="hero-pages__icon" width="34" height="30">
+                  <use href="./images/symbol-defs.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Цитата  -->
 
       <section class="quote">
-        <h2 class="quote__title">
-          “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ
-          ЗАКІНЧУЄТЬСЯ.”
-        </h2>
-        <p class="quote__text">Джейк Саллі</p>
-        <svg class="quote__icon">
-          <use></use>
-        </svg>
+        <div class="container">
+          <h2 class="quote__title">
+            “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ
+            ЗАКІНЧУЄТЬСЯ.”
+          </h2>
+          <p class="quote__text">Джейк Саллі</p>
+          <img
+            src="./images/bird.png"
+            alt="bird"
+            width="400"
+            height="120"
+            class="quote__icon"
+          />
+        </div>
       </section>
 
       <!-- Трейлер  -->
 
       <section class="trailer">
-        <button type="button">Дивитися трейлер</button>
+        <div class="container">
+          <button class="trailer__btn" type="button">Дивитися трейлер</button>
+        </div>
       </section>
 
       <!-- Цитата  -->
 
       <section class="quote">
-        <h2 class="quote__title">
-          “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
-        </h2>
-        <p class="quote__text">Джейк Саллі</p>
-        <svg class="quote__icon">
-          <use></use>
-        </svg>
+        <div class="container">
+          <h2 class="quote__title">
+            “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+          </h2>
+          <p class="quote__text">Джейк Саллі</p>
+          <img
+            src="./images/bird.png"
+            alt="bird"
+            width="400"
+            height="120"
+            class="quote__icon"
+          />
+        </div>
       </section>
 
       <!-- Мова  -->
 
       <section class="language">
-        <h3 class="language__title">Вчимо мову На'ві</h3>
-        <ul class="language-list">
-          <li class="language-list__item">
-            <p class="language-list__text">Привіт</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Kaltxì</p>
-          </li>
-          <li class="language-list__item">
-            <p class="language-list__text">Як справи?</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Ngaru lu fpom srak?</p>
-          </li>
-          <li class="language-list__item">
-            <p class="language-list__text">Все добре</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Lu fpom</p>
-          </li>
-          <li class="language-list__item">
-            <p class="language-list__text">Дякую</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Irayo si</p>
-          </li>
-          <li class="language-list__item">
-            <p class="language-list__text">Я бачу тебе</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Oel ngati kameie</p>
-          </li>
-          <li class="language-list__item">
-            <p class="language-list__text">Слідуй за мною</p>
-            <svg class="language-list__icon"><use></use></svg>
-            <p class="language-list__text">Nong oet!</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h3 class="language__title">Вчимо мову На'ві</h3>
+          <ul class="language-list">
+            <li class="language-list__item">
+              <p class="language-list__text">Привіт</p>
+              <img
+                src="./images/arrow-left.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Kaltxì</p>
+            </li>
+            <li class="language-list__item">
+              <p class="language-list__text">Як справи?</p>
+              <img
+                src="./images/bird.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Ngaru lu fpom srak?</p>
+            </li>
+            <li class="language-list__item">
+              <p class="language-list__text">Все добре</p>
+              <img
+                src="./images/arrow-right.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Lu fpom</p>
+            </li>
+            <li class="language-list__item">
+              <p class="language-list__text">Дякую</p>
+              <img
+                src="./images/arrow-left.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Irayo si</p>
+            </li>
+            <li class="language-list__item">
+              <p class="language-list__text">Я бачу тебе</p>
+              <img
+                src="./images/bird.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Oel ngati kameie</p>
+            </li>
+            <li class="language-list__item">
+              <p class="language-list__text">Слідуй за мною</p>
+              <img
+                src="./images/arrow-right.png"
+                alt="arrow"
+                class="language-list__icon"
+                width="152"
+                height="40"
+              />
+              <p class="language-list__text">Nong oet!</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Цитата  -->
 
       <section class="quote">
-        <h2 class="quote__title">
-          “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ
-          БАЛАНС.”
-        </h2>
-        <p class="quote__text">Джейк Саллі</p>
-        <svg class="quote__icon">
-          <use></use>
-        </svg>
+        <div class="container">
+          <h2 class="quote__title">
+            “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ
+            ЖИТТЄВИЙ БАЛАНС.”
+          </h2>
+          <p class="quote__text">Джейк Саллі</p>
+          <img
+            src="./images/bird.png"
+            alt="bird"
+            width="400"
+            height="120"
+            class="quote__icon"
+          />
+        </div>
       </section>
     </main>
 

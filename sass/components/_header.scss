@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 24px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__btn {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text {
+    font-size: 20px;
+line-height: 24px;
+text-align: justify;
+color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+.language {
+  height: 664px;
+  background-image: url(../../images/language-bg.jpg);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.language__title {
+  font-family: "HeadlandOne";
+  font-weight: "Regular";
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  color: #1f2426;
+  margin-bottom: 47px;
+}
+
+.language-list {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.language-list__item {
+    width: 320px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 36px 29px;
+}
+
+.language-list__icon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.language-list__text {
+  font-family: "HeadlandOne";
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.language-list__icon {
+    margin-left: auto;
+    margin-right: auto;
+}
