@@ -1,7 +1,6 @@
 .modal {
-  max-width: 600px;
+  width: 600px;
   position: fixed;
-  position: relative;
   padding-top: 113px;
   padding-bottom: 25px;
   top: 50%;
@@ -12,6 +11,11 @@
   z-index: 2;
   background-image: url(../../images/modal-bg1.png);
   background-size: cover;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-close__btn {
@@ -35,6 +39,7 @@
   text-align: justify;
   color: #0b0e66;
   margin-bottom: 2px;
+    display: block;
 }
 
 .modal-list__filling {
@@ -65,7 +70,7 @@
 // Друга модалка
 
 .modal-gratitude {
-  max-width: 600px;
+  width: 600px;
   background-image: url(../../images/modal-bg2.png);
   padding-top: 50px;
   padding-bottom: 184px;
@@ -74,7 +79,6 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   position: fixed;
-  position: relative;
   background-size: cover;
 }
 
@@ -99,4 +103,13 @@
   margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
+}
+
+// Modal 3 
+
+.modal-trailer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

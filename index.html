@@ -14,13 +14,13 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
-    /> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Hurricane&family=Inter&family=Italianno&display=swap"
       rel="stylesheet"
@@ -38,15 +38,16 @@
           class="header__logo"
           width="244"
         />
-        <!-- <span class="header__text">Eng</span>
-        <input
-          class="form-check-input header__btn"
-          type="checkbox"
-          role="switch"
-          id="flexSwitchCheckDefault"
-        /> -->
-        <!-- <svg class="header-btn__icon"><use href=""></use></svg> -->
-        <!-- <span class="header__text">Uk</span> -->
+        <div class="form-check form-switch">
+          <span class="header__text eng">Eng</span>
+          <input
+            class="form-check-input header__btn"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+          />
+          <span class="header__text">Uk</span>
+        </div>
       </div>
     </header>
 
@@ -57,75 +58,74 @@
 
       <section class="hero">
         <div class="container">
-          <img data-aos="fade-up" data-aos-duration="1500" src="./images/avatar.png" alt="avatar" class="avatar" />
-          <ul class="hero-list" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3500">
+          <img
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            src="./images/avatar.png"
+            alt="avatar"
+            class="avatar"
+          />
+          <ul
+            class="hero-list"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="3500"
+          >
             <li>
-            <p class="hero__text">
-              Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
-              slu Na'viyä hapxì. Säwem nìayoeng!
-            </p>
+              <p class="hero__text">
+                Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
+                slu Na'viyä hapxì. Säwem nìayoeng!
+              </p>
             </li>
             <li>
-            <p class="hero__text">
-              Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
-              залишається, щоб стати частиною Народу. Борись разом з нами!
-            </p>
+              <p class="hero__text">
+                Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє
+                тіло залишається, щоб стати частиною Народу. Борись разом з
+                нами!
+              </p>
             </li>
           </ul>
-          <button data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="3500"
-          data-open-modal
+          <button
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+            data-aos-delay="3500"
+            data-open-modal
             type="button"
             class="hero__btn"
           >
             Приєднатися до клану
           </button>
-
-          <!-- Modal 1  -->
-
-          <!-- <div data-backdrop class="modal__backdrop is-hidden">
-                  <div class="modal">
-                    <ul class="modal-list">
-                      <li class="modal-list__item">
-                        <p class="modal-list__text">Ім'я</p>
-                        <input type="text" class="modal-list__filling" />
-                      </li>
-                      <li class="modal-list__item">
-                        <p class="modal-list__text">Email</p>
-                        <input type="text" class="modal-list__filling" />
-                      </li>
-                    </ul>
-                    <button class="modal__btn" type="button">Приєднатися до клану</button>
-                    <button data-close-modal type="button" class="modal-close__btn">
-              <svg class="modal__dagger" width="18" height="18">
-                <use href="./images/symbol-defs.svg#cross"></use>
-              </svg>
-            </button>
-          </div>
-            </div> -->
-
-            <!-- Modal 2 -->
-
-            <!-- <div class="modal-gratitude">
-<p class="modal-gratitude__greeting">Вітаємо у нашому клані</p>
-<p class="modal-gratitude__text">Твій Банші вже в дорозі. Скоро побачимось на Пандорі.</p>
-            </div>
-
           <ul class="hero-pages">
-            <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1500" class="hero-pages__item">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="700"
+              data-aos-delay="1500"
+              class="hero-pages__item"
+            >
               <a href="" class="hero-pages__link">
                 <svg class="hero-pages__icon" width="34" height="30">
                   <use href="./images/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2500" class="hero-pages__item">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="700"
+              data-aos-delay="2200"
+              class="hero-pages__item"
+            >
               <a href="" class="hero-pages__link">
                 <svg class="hero-pages__icon" width="34" height="30">
                   <use href="./images/symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="3500" class="hero-pages__item">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="700"
+              data-aos-delay="2900"
+              class="hero-pages__item"
+            >
               <a href="" class="hero-pages__link">
                 <svg class="hero-pages__icon" width="34" height="30">
                   <use href="./images/symbol-defs.svg#youtube"></use>
@@ -134,18 +134,27 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Цитата  -->
 
       <section class="quote">
         <div class="container">
-          <h2 class="quote__title" data-aos="fade-down" data-aos-duration="1000">
+          <h2
+            class="quote__title"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ
             ЗАКІНЧУЄТЬСЯ.”
           </h2>
-          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">Джейк Саллі</p>
-          <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700"
+          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">
+            Джейк Саллі
+          </p>
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="700"
             src="./images/bird.png"
             alt="bird"
             width="400"
@@ -159,8 +168,13 @@
 
       <section class="trailer">
         <div class="container">
-          <button class="trailer__btn" type="button" data-aos="zoom-in" data-aos-duration="1000">
-            <a href="https://youtu.be/5PSNL1qE6VY">Дивитися трейлер</a>
+          <button
+            data-open-trailer
+            class="trailer__btn"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            Дивитися трейлер
           </button>
         </div>
       </section>
@@ -169,11 +183,20 @@
 
       <section class="quote">
         <div class="container">
-          <h2 class="quote__title" data-aos="fade-down" data-aos-duration="1000">
+          <h2
+            class="quote__title"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
           </h2>
-          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">Джейк Саллі</p>
-          <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700"
+          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">
+            Джейк Саллі
+          </p>
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="700"
             src="./images/bird.png"
             alt="bird"
             width="400"
@@ -189,7 +212,11 @@
         <div class="container">
           <h3 class="language__title">Вчимо мову На'ві</h3>
           <ul class="language-list">
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+            >
               <p class="language-list__text">Привіт</p>
               <img
                 src="./images/arrow-left.png"
@@ -200,7 +227,12 @@
               />
               <p class="language-list__text">Kaltxì</p>
             </li>
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="500"
+            >
               <p class="language-list__text">Як справи?</p>
               <img
                 src="./images/bird.png"
@@ -211,7 +243,12 @@
               />
               <p class="language-list__text">Ngaru lu fpom srak?</p>
             </li>
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500" data-aos-delay="1000">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="1000"
+            >
               <p class="language-list__text">Все добре</p>
               <img
                 src="./images/arrow-right.png"
@@ -222,7 +259,12 @@
               />
               <p class="language-list__text">Lu fpom</p>
             </li>
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500" data-aos-delay="1500">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="1500"
+            >
               <p class="language-list__text">Дякую</p>
               <img
                 src="./images/arrow-left.png"
@@ -233,7 +275,12 @@
               />
               <p class="language-list__text">Irayo si</p>
             </li>
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500" data-aos-delay="2000">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="2000"
+            >
               <p class="language-list__text">Я бачу тебе</p>
               <img
                 src="./images/bird.png"
@@ -244,7 +291,12 @@
               />
               <p class="language-list__text">Oel ngati kameie</p>
             </li>
-            <li class="language-list__item" data-aos="flip-left" data-aos-duration="500" data-aos-delay="2500">
+            <li
+              class="language-list__item"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="2500"
+            >
               <p class="language-list__text">Слідуй за мною</p>
               <img
                 src="./images/arrow-right.png"
@@ -263,12 +315,21 @@
 
       <section class="quote">
         <div class="container">
-          <h2 class="quote__title" data-aos="fade-down" data-aos-duration="1000">
+          <h2
+            class="quote__title"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ
             ЖИТТЄВИЙ БАЛАНС.”
           </h2>
-          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">Джейк Саллі</p>
-          <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700"
+          <p class="quote__text" data-aos="fade-left" data-aos-duration="1000">
+            Джейк Саллі
+          </p>
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="700"
             src="./images/bird.png"
             alt="bird"
             width="400"
@@ -285,37 +346,98 @@
 
     <!-- Модалка  -->
 
-    <script>
-      const refs = {
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-      };
+    <!-- Modal 1  -->
 
-      refs.openModalBtn.addEventListener("click", toggleModal);
-      refs.closeModalBtn.addEventListener("click", toggleModal);
+    <div data-backdrop class="modal__backdrop is-hidden">
+      <div class="modal">
+        <ul class="modal-list">
+          <li class="modal-list__item">
+            <label for="name" class="modal-list__text">Ім'я</label>
+            <input
+              autofocus
+              id="name"
+              type="text"
+              class="modal-list__filling"
+              required
+            />
+          </li>
+          <li class="modal-list__item">
+            <label for="email" class="modal-list__text">Email</label>
+            <input
+              id="email"
+              type="text"
+              class="modal-list__filling"
+              required
+            />
+          </li>
+        </ul>
+        <button
+          class="modal__btn"
+          type="submit"
+          data-close-modal
+          data-open-info
+        >
+          Приєднатися до клану
+        </button>
+        <button data-close-modal type="button" class="modal-close__btn">
+          <svg class="modal__dagger" width="18" height="18">
+            <use href="./images/symbol-defs.svg#cross"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
 
-      refs.backdrop.addEventListener("click", logBackdropClick);
+    <!-- Modal 2 -->
 
-      function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-      }
+    <div class="modal-gratitude is-hidden" data-info>
+      <p class="modal-gratitude__greeting">Вітаємо у нашому клані</p>
+      <p class="modal-gratitude__text">
+        Твій Банші вже в дорозі. Скоро побачимось на Пандорі.
+      </p>
+      <button data-close-info type="button" class="modal-close__btn">
+        <svg class="modal__dagger" width="18" height="18">
+          <use href="./images/symbol-defs.svg#cross"></use>
+        </svg>
+      </button>
+    </div>
 
-      function logBackdropClick() {
-        console.log("Це клік в бекдроп");
-      }
-    </script>
+    <!-- Modal 3  -->
+
+    <div class="modal-trailer is-hidden" data-trailer>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5PSNL1qE6VY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <button data-close-trailer type="button" class="modal-close__btn">
+        <svg class="modal__dagger" width="18" height="18">
+          <use href="./images/symbol-defs.svg#cross"></use>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Скрипти  -->
+
+    <script src="./js/modal-hero.js"></script>
+
+    <script src="./js/modal-info.js"></script>
+
+    <script src="./js/modal-trailer.js"></script>
 
     <!-- Анімації  -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
 
     <!-- Бутстрап  -->
 
-    <!-- <script
+    <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
@@ -324,6 +446,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
   </body>
 </html>

@@ -47,9 +47,8 @@ header {
   z-index: 10;
 }
 
-.header__btn {
-  margin-left: 12px;
-  margin-right: 12px;
+.eng {
+  margin-right: 60px;
 }
 
 header .container {
@@ -73,6 +72,8 @@ header .container {
   padding-bottom: 43px;
   position: relative;
   overflow: hidden;
+  max-width: 1360px;
+  height: 700px;
 }
 
 .avatar {
@@ -122,9 +123,8 @@ header .container {
 }
 
 .modal {
-  max-width: 600px;
+  width: 600px;
   position: fixed;
-  position: relative;
   padding-top: 113px;
   padding-bottom: 25px;
   top: 50%;
@@ -134,6 +134,11 @@ header .container {
   z-index: 2;
   background-image: url(../../images/modal-bg1.png);
   background-size: cover;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-close__btn {
@@ -157,6 +162,7 @@ header .container {
   text-align: justify;
   color: #0b0e66;
   margin-bottom: 2px;
+  display: block;
 }
 
 .modal-list__filling {
@@ -185,7 +191,7 @@ header .container {
 }
 
 .modal-gratitude {
-  max-width: 600px;
+  width: 600px;
   background-image: url(../../images/modal-bg2.png);
   padding-top: 50px;
   padding-bottom: 184px;
@@ -194,7 +200,6 @@ header .container {
   transform: translate(-50%, -50%);
   z-index: 2;
   position: fixed;
-  position: relative;
   background-size: cover;
 }
 
@@ -219,6 +224,13 @@ header .container {
   margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.modal-trailer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .quote {
@@ -265,6 +277,7 @@ header .container {
   padding: 25px 20px 25px 20px;
   margin-left: auto;
   margin-right: auto;
+  width: 260px;
 }
 
 .language {
