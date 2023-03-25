@@ -21,6 +21,10 @@ img {
   height: auto;
 }
 
+button {
+  border: none;
+}
+
 body {
   font-family: "Inter";
   font-weight: 400;
@@ -32,7 +36,6 @@ body {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 5px solid red;
 }
 
 header {
@@ -67,6 +70,7 @@ header .container {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 290px;
+  padding-bottom: 43px;
   position: relative;
   overflow: hidden;
 }
@@ -74,7 +78,7 @@ header .container {
 .avatar {
   position: absolute;
   top: 90px;
-  right: 0;
+  right: 250px;
 }
 
 .hero-list {
@@ -102,6 +106,119 @@ header .container {
   border: 3px solid #26C7EA;
   border-radius: 45px 0px;
   padding: 25px 20px 25px 20px;
+}
+
+.hero-pages {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 224px;
+  right: 164px;
+  gap: 24px;
+}
+
+.hero-pages__icon {
+  fill: white;
+}
+
+.modal {
+  max-width: 600px;
+  position: fixed;
+  position: relative;
+  padding-top: 113px;
+  padding-bottom: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  background-image: url(../../images/modal-bg1.png);
+  background-size: cover;
+}
+
+.modal-close__btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.modal-list__text {
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: justify;
+  color: #0b0e66;
+  margin-bottom: 2px;
+}
+
+.modal-list__filling {
+  background: #ffffff;
+  border: 2px solid #0b0e66;
+  width: 440px;
+  height: 40px;
+}
+
+.modal__btn {
+  display: block;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  color: #26c7ea;
+  margin-right: auto;
+  margin-left: auto;
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  padding: 10px 30px;
+  width: 260px;
+}
+
+.modal-gratitude {
+  max-width: 600px;
+  background-image: url(../../images/modal-bg2.png);
+  padding-top: 50px;
+  padding-bottom: 184px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  position: fixed;
+  position: relative;
+  background-size: cover;
+}
+
+.modal-gratitude__greeting {
+  font-family: "HeadlandOne";
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+}
+
+.modal-gratitude__text {
+  display: flex;
+  font-family: "HeadlandOne";
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+  width: 375px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .quote {
